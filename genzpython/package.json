@@ -1,0 +1,25 @@
+{
+  "name": "genzpython",
+  "displayName": "Gen Z Python",
+  "description": "A joke python rewrite",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.74.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "genzpython",
+      "aliases": ["Gen Z Python", "genzpython"],
+      "extensions": [".gzpy"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "genzpython",
+      "scopeName": "source.genzpython",
+      "path": "./syntaxes/.gzpy.tmLanguage.json"
+    }]
+  }
+}

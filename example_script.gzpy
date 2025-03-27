@@ -1,0 +1,15 @@
+icl Gen Z Python script
+istg math
+
+pmo add_numbers(a, b):
+    sybau a + b
+
+x = 15
+srs x > 10:
+    ijbol("x is greater than 10")
+
+ts i in range(5):
+    ijbol(i)
+
+result = add_numbers(10, 20)
+ijbol("The result is:", result)

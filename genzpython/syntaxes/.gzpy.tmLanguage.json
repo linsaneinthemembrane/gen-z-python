@@ -1,0 +1,91 @@
+{
+	"scopeName": "source.genzpython",
+	"patterns": [
+	  { "include": "#keywords" },
+	  { "include": "#strings" },
+	  { "include": "#function-call" },
+	  { "include": "#numbers" },
+	  { "include": "#comments" }
+	],
+	"repository": {
+	  "keywords": {
+		"patterns": [
+		  {
+			"name": "keyword.control.genzpython",
+			"match": "\\b(srs|ts|sm|sybau)\\b"
+		  },
+		  {
+			"name": "storage.type.function.genzpython",
+			"match": "\\bpmo\\b"
+		  },
+		  {
+			"name": "support.function.builtin.genzpython",
+			"match": "\\bijbol\\b"
+		  },
+		  {
+			"name": "constant.language.genzpython",
+			"match": "\\bngl\\b"
+		  },
+		  {
+			"name": "keyword.other.import.genzpython",
+			"match": "\\bistg\\b"
+		  },
+		  {
+			"name": "keyword.control.exception.genzpython",
+			"match": "\\bflop\\b"
+		  },
+		  {
+			"name": "keyword.other.assert.genzpython",
+			"match": "\\bbffr\\b"
+		  },
+		  {
+			"name": "variable.language.special.genzpython",
+			"match": "\\brn\\b"
+		  }
+		]
+	  },
+	  "strings": {
+		"patterns": [
+		  {
+			"name": "string.quoted.double.genzpython",
+			"begin": "\"",
+			"end": "\"",
+			"patterns": [
+			  {
+				"name": "constant.character.escape.genzpython",
+				"match": "\\\\."
+			  }
+			]
+		  },
+		  {
+			"name": "string.quoted.single.genzpython",
+			"begin": "'",
+			"end": "'",
+			"patterns": [
+			  {
+				"name": "constant.character.escape.genzpython",
+				"match": "\\\\."
+			  }
+			]
+		  }
+		]
+	  },
+	  "function-call": {
+		"match": "([a-zA-Z_][a-zA-Z0-9_]*)\\s*\\(",
+		"captures": {
+		  "1": {
+			"name": "entity.name.function.genzpython"
+		  }
+		}
+	  },
+	  "numbers": {
+		"name": "constant.numeric.genzpython",
+		"match": "\\b\\d+(\\.\\d+)?\\b"
+	  },
+	  "comments": {
+		"name": "comment.line.number-sign.genzpython",
+		"match": "icl.*$"
+	  }
+	}
+  }
+  
