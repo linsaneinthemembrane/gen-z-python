@@ -2,11 +2,11 @@
 
 ![Gen Z Python Example](./genzpython/example_screenshot.jpg)
 
-A joke Python rewrite that replaces standard Python keywords with Gen Z slang and acronyms.
+A joke Python rewrite.
 
 ## Features
 
-This extension provides syntax highlighting for Gen Z Python (.gzpy) files, making it easier to read and write code in this fun language variant.
+This extension provides syntax highlighting for Gen Z Python (.gzpy) files, making it easier to read and write code in this fun language variant. Pretty self-explanatory
 
 The extension highlights Gen Z keywords such as:
 - `pmo` (def) - Define functions
