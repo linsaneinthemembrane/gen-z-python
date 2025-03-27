@@ -6,9 +6,9 @@ A joke Python rewrite.
 
 ## Features
 
-This extension provides syntax highlighting for Gen Z Python (.gzpy) files, making it easier to read and write code in this fun language variant. Pretty self-explanatory
+This extension provides syntax highlighting for Gen Z Python (.gzpy) files, making it easier to read and write code in this fun language variant. Pretty self-explanatory.
 
-The extension highlights Gen Z keywords such as:
+The extension highlights new keywords such as:
 - `pmo` (def) - Define functions
 - `ts` (for) - For loops
 - `srs` (if) - Conditional statements
@@ -32,7 +32,8 @@ ts i in range(5):
 ijbol(i)
 ```
 
-translates to this
+simply translates to this
+
 ```
 # This is a comment
 import math
