@@ -1,6 +1,6 @@
 # Gen Z Python
 
-![Gen Z Python Example](example_screenshot.jpg)
+![Gen Z Python Example](./genzpython/example_screenshot.jpg)
 
 A joke Python rewrite that replaces standard Python keywords with Gen Z slang and acronyms.
 
